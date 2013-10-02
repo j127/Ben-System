@@ -1,4 +1,4 @@
-<?php
+<pre><?php
 
 // PLACE YOUR SYSTEM INTO THESE ARRAYS AND THE SCRIPT DOES THE REST
 // YOU'LL PROBABLY JUST NEED TO MODIFY THE LETTERS AND THE ORDER OF SUITS
@@ -122,26 +122,26 @@ for ($row1 = 0; $row1 < 19; $row1++) {
                 //add a counter column if you want
                 //echo "<td style=\"color:#eee;\" class=\"a\">$counter</td>";
 
-                //echo "\t<td class=\"b\">";
+                //echo ";<td class=\"b\">";
                 if ($dec_check == 1) {
                     echo "$dec";
                     $decimal_counter++;
                 }
-                echo "\t";
+                echo ";";
 
-                //echo "\t<td class=\"c\">";
+                //echo ";<td class=\"c\">";
                 if ($bin_check == 1) {
                     echo "$bins";
                     $binary_counter++;
                 }
-                echo "\t";
+                echo ";";
 
-                //echo "\t<td class=\"d\">";
+                //echo ";<td class=\"d\">";
                 if ($card_check == 1) {
                     echo "$car"; // read the suit pair with $suits[$row1]
                     $card_counter++;
                 }
-                echo "\t";
+                echo ";";
 
                 echo "$let\n";
 
@@ -151,4 +151,4 @@ for ($row1 = 0; $row1 < 19; $row1++) {
     }
 }
 
-?>
+?></pre>
