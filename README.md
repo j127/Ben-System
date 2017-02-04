@@ -7,3 +7,7 @@ This is a simple script that generates a template for the [Ben System](http://mt
 ## How to Run It
 
 Coming soon.
+
+## Tests
+
+Run `pytest` from above the `tests` directory.
