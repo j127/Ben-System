@@ -23,10 +23,14 @@ systems['ben_pridmore'] = {
 }
 
 systems['josh_cohen'] = {
-    # TODO: fix this
-    'first_letters': [],
-    'middle_letters': [],
-    'final_letters': [],
+    'first_letters': ['s/z', 't', 'n', 'm', 'r', 'l', 'b', 'k', 'f/v', 'p',
+                      'g/y', 'h', 'sk/sn/sm', 'st/sp', 'sh/sl/sw/j', 'd', None,
+                      None, None],
+    'middle_letters': ['o', 'i', 'u', 'aa', 'a', 'ai', 'ih', 'ei', 'u',
+                       None, None, None, None, None, None, 'ow', 'or', 'ar'],
+    'final_letters': ['s/z', 't', 'n', 'm', 'r/th', 'l', 'b', 'k', 'f/v', 'p',
+                      None, None, None, None, None, None, 'j/sh/ch', 'g/y',
+                      'd'],
     'decimals': ['0',  '1', '2', '3', '4', '5', '6', '7', '8', '9', None, None,
                  None, None, None, None, None, None, None],
     'binaries': ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11',
@@ -35,4 +39,3 @@ systems['josh_cohen'] = {
     'card_values': ['10', 'A', '2', '3', '4', '5', '6', '7', '8', '9', None,
                     None, None, None, None, None, 'J', 'Q', 'K'],
 }
-
