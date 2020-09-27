@@ -1,0 +1,63 @@
+first_letters:
+  - k:
+      suits:
+        - C
+        - C
+      number: "1"
+      letter: a
+  - t:
+      suits:
+        - C
+        - D
+      number: "2"
+      letter: e
+
+
+# club/club - k
+# club/diamond - t
+# club/heart - n
+# club/spade - m
+# diamond/club - r
+# diamond/diamond - d
+# diamond/heart - l
+# diamond/spade - g/j
+# heart/club – f/th
+# heart/diamond - b
+# heart/heart - h
+# heart/spade - p
+# spade/club - sk/sn/sm
+# spade/diamond - st/sp
+# spade/heart - sh/sl/sw
+# spade/spade – s
+
+
+
+# A = 'a' as in 'cat'
+# 2 = 'e' as in 'pet'
+# 3 = 'i' as in 'kitten'
+# 4 = 'o' as in 'tom'
+# 5 = 'u' as in 'puss'
+# 6 = 'A' as in 'hay'
+# 7 = 'E' as in 'bee'
+# 8 = 'I' as in 'high'
+# 9 = 'O' as in 'low'
+# 10 = 'oo' as in 'you'
+# J = 'ow' as in 'cow'
+# Q = 'or' as in 'oor'
+# K = 'ar' as in 'car'
+
+
+
+# A = t
+# 2 = n
+# 3 = m
+# 4 = r
+# 5 = l
+# 6 = g
+# 7 = k
+# 8 = f/th
+# 9 = b
+# 10 = s
+# J = j/sh/ch
+# Q = p
+# K = d

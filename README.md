@@ -1,13 +1,16 @@
 # Ben System
 
-Current status: unfinished.
+This is a simple script that generates a template for the [Ben System](https://artofmemory.com/wiki/Ben_System). View the sample output [here](https://artofmemory.com/3.1415926/ben_system.php).
 
-This is a simple script that generates a template for the [Ben System](http://mt.artofmemory.com/wiki/Ben_System). View the sample output [here](http://mt.artofmemory.com/3.1415926/ben_system.php).
+## TODO: How to Run It
 
-## How to Run It
+(This script doesn't work yet. Don't use it.)
 
-Coming soon.
+```text
+$ python3 -m venv venv
+$ source venv/bin/activate
+(venv)$ pip install -r requirements.txt
+(venv)$ python script.py
+```
 
-## Tests
-
-Run `pytest` from above the `tests` directory.
+Then look in the `build` directory.
